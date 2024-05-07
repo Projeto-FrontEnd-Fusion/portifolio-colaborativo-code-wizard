@@ -1,6 +1,6 @@
 export interface IComentarioProps {
-    mensagem: string,
-    autor: string,
-    descricao: string,
-    imagem: string
+    mensagem?: string,
+    autor?: string,
+    descricao?: string,
+    imagem?: string
 }
