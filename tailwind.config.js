@@ -24,7 +24,12 @@ export default {
 
     },
 
-    extend: {},
+    extend: {
+      fontFamily: {
+        'inconsolata': ['Inconsolata', 'monospace'],
+        'mulish': ['Mulish', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }
