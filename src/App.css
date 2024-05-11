@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/*
+    Esconde a aba Projetos e Habilidades
+    Tailwind não tem a propiedade "grid-template-rows: 0fr"
+*/
+.open{
+    grid-template-rows: 1fr;
+}
+.close{
+    grid-template-rows: 0fr;
+}
