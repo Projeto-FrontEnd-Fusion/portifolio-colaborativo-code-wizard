@@ -2,215 +2,96 @@
   "filipediass": {
     "social_media": {
       "linkedin": "https://www.linkedin.com/in/filipediass/",
-      "instagram": "https://www.instagram.com/_filipe_dias_/",
-      "facebook": "https://www.facebook.com/filipe.diascavalcante"
-    },
-    "projects": [
-      {
-        "project01": {
-          "name": "",
-          "image": ""
-        }
-      },
-      {
-        "project02": {
-          "name": "",
-          "image": ""
-        }
-      },
-      {
-        "project03": {
-          "name": "",
-          "image": ""
-        }
-      },
-      {
-        "project04": {
-          "name": "",
-          "image": ""
-        }
-      },
-      {
-        "project05": {
-          "name": "",
-          "image": ""
-        }
-      },
-      {
-        "project06": {
-          "name": "",
-          "image": ""
-        }
-      }
-    ],
-    "skills": [
-      {
-        "skill01": {
-          "name": "",
-          "image": ""
-        }
-      },
-      {
-        "skill02": {
-          "name": "",
-          "image": ""
-        }
-      },
-      {
-        "skill03": {
-          "name": "",
-          "image": ""
-        }
-      },
-      {
-        "skill04": {
-          "name": "",
-          "image": ""
-        }
-      }
-    ],
-    "descricao": "Essa é uma pequena descrição sobre essa pessoa, aqui não existe nenhum texto relevante é apenas para preencher espaço Essa é uma pequena descrição sobre essa pessoa, aqui não existe nenhum texto relevante é apenas para preencher espaço."
-  },
-  "filipedeschamps": {
-    "social_media": {
-      "linkedin": "https://www.linkedin.com",
       "instagram": "https://www.instagram.com",
       "facebook": "https://www.facebook.com"
     },
     "projects": [
       {
-        "project01": {
-          "name": "",
-          "image": ""
-        }
+        "name": "Flicker",
+        "image": "",
+        "link": "https://github.com/FilipeDiass/Flicker"
       },
       {
-        "project02": {
-          "name": "",
-          "image": ""
-        }
+        "name": "Books",
+        "image": "",
+        "link": "https://github.com/FilipeDiass/Books"
       },
       {
-        "project03": {
-          "name": "",
-          "image": ""
-        }
-      },
-      {
-        "project04": {
-          "name": "",
-          "image": ""
-        }
-      },
-      {
-        "project05": {
-          "name": "",
-          "image": ""
-        }
-      },
-      {
-        "project06": {
-          "name": "",
-          "image": ""
-        }
+        "name": "Calculator The Game",
+        "image": "",
+        "link": "https://github.com/FilipeDiass/Calculator_The_Game"
       }
     ],
     "skills": [
       {
-        "skill01": {
-          "name": "",
-          "image": ""
-        }
+        "name": "JavaScript",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg"
       },
       {
-        "skill02": {
-          "name": "",
-          "image": ""
-        }
+        "name": "TypeScript",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg"
       },
       {
-        "skill03": {
-          "name": "",
-          "image": ""
-        }
+        "name": "React",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
       },
       {
-        "skill04": {
-          "name": "",
-          "image": ""
-        }
+        "name": "VueJs",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg"
+      },
+      {
+        "name": "Tailwind",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
+      },
+      {
+        "name": "Kotlin",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/06/Kotlin_Icon.svg"
       }
     ],
     "descricao": "Essa é uma pequena descrição sobre essa pessoa, aqui não existe nenhum texto relevante é apenas para preencher espaço Essa é uma pequena descrição sobre essa pessoa, aqui não existe nenhum texto relevante é apenas para preencher espaço."
   },
-  "dinhoSilwa": {
+  "dErnandoV7": {
     "social_media": {
       "linkedin": "https://www.linkedin.com",
       "instagram": "https://www.instagram.com",
       "facebook": "https://www.facebook.com"
     },
-    "projects": [
-      {
-        "project01": {
-          "name": "",
-          "image": ""
-        }
-      },
-      {
-        "project02": {
-          "name": "",
-          "image": ""
-        }
-      },
-      {
-        "project03": {
-          "name": "",
-          "image": ""
-        }
-      },
-      {
-        "project04": {
-          "name": "",
-          "image": ""
-        }
-      },
-      {
-        "project05": {
-          "name": "",
-          "image": ""
-        }
-      },
-      {
-        "project06": {
-          "name": "",
-          "image": ""
-        }
-      }
-    ],
+    "projects": [],
     "skills": [
       {
-        "skill01": {
-          "name": "",
-          "image": ""
-        }
+        "name": "JavaScript",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg"
       },
       {
-        "skill02": {
-          "name": "",
-          "image": ""
-        }
+        "name": "React",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
       },
       {
-        "skill03": {
-          "name": "",
-          "image": ""
-        }
+        "name": "Tailwind",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
+      }
+    ],
+    "descricao": "Essa é uma pequena descrição sobre essa pessoa, aqui não existe nenhum texto relevante é apenas para preencher espaço Essa é uma pequena descrição sobre essa pessoa, aqui não existe nenhum texto relevante é apenas para preencher espaço."
+  },
+  "DaviSC17": {
+    "social_media": {
+      "linkedin": "https://www.linkedin.com",
+      "instagram": "https://www.instagram.com",
+      "facebook": "https://www.facebook.com"
+    },
+    "projects": [],
+    "skills": [
+      {
+        "name": "JavaScript",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg"
       },
       {
-        "skill04": {
-          "name": "",
-          "image": ""
-        }
+        "name": "React",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+      },
+      {
+        "name": "Tailwind",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
       }
     ],
     "descricao": "Essa é uma pequena descrição sobre essa pessoa, aqui não existe nenhum texto relevante é apenas para preencher espaço Essa é uma pequena descrição sobre essa pessoa, aqui não existe nenhum texto relevante é apenas para preencher espaço."
@@ -221,68 +102,19 @@
       "instagram": "https://www.instagram.com",
       "facebook": "https://www.facebook.com"
     },
-    "projects": [
-      {
-        "project01": {
-          "name": "",
-          "image": ""
-        }
-      },
-      {
-        "project02": {
-          "name": "",
-          "image": ""
-        }
-      },
-      {
-        "project03": {
-          "name": "",
-          "image": ""
-        }
-      },
-      {
-        "project04": {
-          "name": "",
-          "image": ""
-        }
-      },
-      {
-        "project05": {
-          "name": "",
-          "image": ""
-        }
-      },
-      {
-        "project06": {
-          "name": "",
-          "image": ""
-        }
-      }
-    ],
+    "projects": [],
     "skills": [
       {
-        "skill01": {
-          "name": "",
-          "image": ""
-        }
+        "name": "JavaScript",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg"
       },
       {
-        "skill02": {
-          "name": "",
-          "image": ""
-        }
+        "name": "React",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
       },
       {
-        "skill03": {
-          "name": "",
-          "image": ""
-        }
-      },
-      {
-        "skill04": {
-          "name": "",
-          "image": ""
-        }
+        "name": "Tailwind",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
       }
     ],
     "descricao": "Essa é uma pequena descrição sobre essa pessoa, aqui não existe nenhum texto relevante é apenas para preencher espaço Essa é uma pequena descrição sobre essa pessoa, aqui não existe nenhum texto relevante é apenas para preencher espaço."
@@ -293,140 +125,42 @@
       "instagram": "https://www.instagram.com",
       "facebook": "https://www.facebook.com"
     },
-    "projects": [
-      {
-        "project01": {
-          "name": "",
-          "image": ""
-        }
-      },
-      {
-        "project02": {
-          "name": "",
-          "image": ""
-        }
-      },
-      {
-        "project03": {
-          "name": "",
-          "image": ""
-        }
-      },
-      {
-        "project04": {
-          "name": "",
-          "image": ""
-        }
-      },
-      {
-        "project05": {
-          "name": "",
-          "image": ""
-        }
-      },
-      {
-        "project06": {
-          "name": "",
-          "image": ""
-        }
-      }
-    ],
+    "projects": [],
     "skills": [
       {
-        "skill01": {
-          "name": "",
-          "image": ""
-        }
+        "name": "JavaScript",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg"
       },
       {
-        "skill02": {
-          "name": "",
-          "image": ""
-        }
+        "name": "React",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
       },
       {
-        "skill03": {
-          "name": "",
-          "image": ""
-        }
-      },
-      {
-        "skill04": {
-          "name": "",
-          "image": ""
-        }
+        "name": "Tailwind",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
       }
     ],
     "descricao": "Essa é uma pequena descrição sobre essa pessoa, aqui não existe nenhum texto relevante é apenas para preencher espaço Essa é uma pequena descrição sobre essa pessoa, aqui não existe nenhum texto relevante é apenas para preencher espaço."
   },
-  "Fulano06": {
+  "wesleyselmer": {
     "social_media": {
       "linkedin": "https://www.linkedin.com",
       "instagram": "https://www.instagram.com",
       "facebook": "https://www.facebook.com"
     },
-    "projects": [
-      {
-        "project01": {
-          "name": "",
-          "image": ""
-        }
-      },
-      {
-        "project02": {
-          "name": "",
-          "image": ""
-        }
-      },
-      {
-        "project03": {
-          "name": "",
-          "image": ""
-        }
-      },
-      {
-        "project04": {
-          "name": "",
-          "image": ""
-        }
-      },
-      {
-        "project05": {
-          "name": "",
-          "image": ""
-        }
-      },
-      {
-        "project06": {
-          "name": "",
-          "image": ""
-        }
-      }
-    ],
+    "projects": [],
     "skills": [
       {
-        "skill01": {
-          "name": "",
-          "image": ""
-        }
+        "name": "JavaScript",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg"
       },
       {
-        "skill02": {
-          "name": "",
-          "image": ""
-        }
+        "name": "React",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
       },
       {
-        "skill03": {
-          "name": "",
-          "image": ""
-        }
-      },
-      {
-        "skill04": {
-          "name": "",
-          "image": ""
-        }
+        "name": "Tailwind",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
       }
     ],
     "descricao": "Essa é uma pequena descrição sobre essa pessoa, aqui não existe nenhum texto relevante é apenas para preencher espaço Essa é uma pequena descrição sobre essa pessoa, aqui não existe nenhum texto relevante é apenas para preencher espaço."
