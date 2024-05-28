@@ -1,12 +1,12 @@
 import {useEffect, useState} from "react";
 import EquipeTop from "./indexComponents/EquipeTop";
 import EquipeBottom from "./indexComponents/EquipeBottom";
-import { LuLoader2 } from "react-icons/lu";
+import {LuLoader2} from "react-icons/lu";
 
 export default function EquipeCollection() {
     const [users, setUsers] = useState([]);
     const [infos, setInfos] = useState()
-    const names = ["filipediass", "diogenesdv", "welton228"] // Adcione o user do Github
+    const names = ["dErnandoV7", "filipediass", "wesleyselmer", "diogenesdv", "DaviSC17", "welton228"] // Adicione o user do Github
 
     useEffect(() => {
         let cacheData = JSON.parse(localStorage.getItem("userGit"))
@@ -38,13 +38,14 @@ export default function EquipeCollection() {
 
     useEffect(() => {
         fetch("./src/components/equipe.collection/jsonUsers/userInfo.json")
-            .then(reponse => reponse.json())
+            .then(response => response.json())
             .then(data => setInfos(data))
             .catch(error => console.error(`Error na solicitação: ${error}`))
     }, [users])
 
     return (
-        <section className={`flex items-center flex-col gap-[90px] w-full h-fit bg-light-color p-5 dark:bg-dark-color `}>
+        <section
+            className={`flex items-center flex-col gap-[90px] w-full h-fit bg-light-color p-5 dark:bg-dark-color `}>
             {users.length === 0 ? (
                 <div className="flex items-center justify-center flex-col gap-2 w-full h-80">
                     <LuLoader2 className={`animate-spin dark:stroke-light-color size-20`}/>
