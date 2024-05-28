@@ -31,7 +31,9 @@ function AboutFrontEndFusion() {
 
   const Participate = clsx("flex self-center flex-col gap-16");
 
-  const TextParticipate = clsx("mulish font-regular text-[#FFFF]  text-center self-center max-medium-screen:w-[90%]");
+  const TextParticipate = clsx(
+    "mulish font-regular text-[#FFFF]  text-center self-center max-medium-screen:w-[90%]"
+  );
   const ButtonParticipate =
     clsx(`mulish font-bold text-2xl text-[#E1E1E1] px-12 py-4  self-center
   rounded-2xl bg-[#06B94E] max-small-screen:text-lg
