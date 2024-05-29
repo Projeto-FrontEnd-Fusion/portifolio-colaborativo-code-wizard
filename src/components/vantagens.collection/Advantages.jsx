@@ -10,7 +10,7 @@ const Advantages = () => {
   return (
     <div className="bg-dark-color">
       <div className="m-auto flex flex-wrap items-center justify-center p-2 gap-4 mega-screen:max-w-[1212px]">
-        <div className="w-96 text-[#F2F0FF] pt-8 pb-8 pr-8 space-y-4 min-h-[161px] small-screen:min-h-[290px]">
+        <div className="w-96 text-[#F2F0FF] pt-8 pb-8 pr-8 m-3 space-y-4 min-h-[161px] small-screen:min-h-[290px] small-screen:m-0">
           <h3 className="text-[22px] font-black font-inconsolata leading-6 small-screen:text-[32px] small-screen:leading-8">
             Vantagens do <br /> Projeto
           </h3>
