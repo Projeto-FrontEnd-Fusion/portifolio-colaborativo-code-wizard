@@ -7,7 +7,7 @@ import React from "react";
 
 function App() {
   return (
-    <div className="flex flex-col gap-10 bg-light-color dark:bg-dark-color">
+    <div className="flex flex-col gap-10">
       <span>[Coloque aqui o hero]</span>
       <Advantages />
       <span>[Coloque aqui a sessão de tecnologias]</span>
