@@ -43,7 +43,7 @@ export default function EquipeBottom(User) {
             </menu>
             <div className={`grid w-full gap-4 overflow-hidden duration-200 ${showProject ? "open" : "close"}`}>
                 <div
-                    className={`flex flex-col items-center w-full h-fit gap-4 overflow-hidden larger-screen:flex-row larger-screen:flex-wrap larger-screen:gap-8`}>
+                    className={`flex items-center justify-center w-full h-fit gap-4 overflow-hidden larger-screen:flex-row larger-screen:justify-start flex-wrap larger-screen:gap-8`}>
                     {info && info.projects.length === 0 ? (
                         <div
                             className="flex items-center justify-center flex-col gap-2 w-full h-fit larger-screen:items-start">
@@ -54,14 +54,14 @@ export default function EquipeBottom(User) {
                     ) : (
                         info && info.projects.map((project, id) => (
                             <picture key={id}
-                                     className={`group overflow-hidden flex items-center justify-center w-52 h-36 bg-dark-color-second rounded-lg cursor-pointer larger-screen:w-[300px] larger-screen:h-[210px]`}>
+                                     className={`group overflow-hidden flex items-center justify-center w-52 h-36 dark:bg-dark-color-second rounded-lg cursor-pointer larger-screen:w-[300px] larger-screen:h-[210px]`}>
                                 <a href={project.link} target="_blank"
                                    className={`relative size-full flex items-center justify-center`}>
                                     <img src={projectDefault} alt={project.name}
                                          className={`size-full object-cover duration-150 group-hover:sepia-0 sepia`}/>
                                     <div
-                                        className={`absolute size-full flex items-center justify-center backdrop-brightness-50`}>
-                                        <p className={`text-xl drop-shadow-2xl font-bold font-inconsolata text-light-color group-hover:scale-125 duration-100`}>{project.name}</p>
+                                        className={`absolute text size-full flex flex-wrap items-center justify-center backdrop-brightness-50`}>
+                                        <p className={`text-xl text-center tracking-tighter drop-shadow-2xl font-bold font-inconsolata text-light-color group-hover:scale-110 larger-screen:group-hover:scale-125 duration-100`}>{project.name}</p>
                                     </div>
                                 </a>
                             </picture>
@@ -75,9 +75,9 @@ export default function EquipeBottom(User) {
                     {info && info.skills.map((skill, id) => {
                         return (
                             <div key={id}
-                                 className={`overflow-hidden flex items-center justify-center size-fit  rounded-lg cursor-pointer`}>
+                                 className={`overflow-hidden flex items-center justify-center size-fit rounded-lg cursor-pointer`}>
                                 <picture
-                                    className={`size-40 flex flex-col items-center justify-center gap-4 bg-dark-color-second p-2`}>
+                                    className={`size-40 flex flex-col items-center justify-center gap-4 bg-[#111111] dark:bg-dark-color-second p-2`}>
                                     <img src={skill.image} alt={skill.name}
                                          className={`size-16 select-none rounded`}/>
                                     <p className={`text-lg font-inconsolata text-light-color`}>{skill.name}</p>

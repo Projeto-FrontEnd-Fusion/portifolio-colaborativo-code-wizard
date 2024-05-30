@@ -45,7 +45,12 @@ export default function EquipeCollection() {
 
     return (
         <section
-            className={`flex items-center flex-col gap-[90px] w-full h-fit bg-light-color p-5 dark:bg-dark-color `}>
+            className={`flex items-center flex-col gap-[90px] w-full h-fit bg-light-color px-4 pb-8 pt-16 larger-screen:px-16 dark:bg-dark-color`}>
+            <div className={`w-full max-w-[503px] px-5 pb-5 border-b-2 border-b-dark-color dark:border-b-border-color`}>
+                <h1 className={`break-words w-full text-center text-2xl larger-screen:text-3xl font-inconsolata text-dark-color dark:text-light-color`}>Desenvolvedores
+                    FrontEnd
+                </h1>
+            </div>
             {users.length === 0 ? (
                 <div className="flex items-center justify-center flex-col gap-2 w-full h-80">
                     <LuLoader2 className={`animate-spin dark:stroke-light-color size-20`}/>
