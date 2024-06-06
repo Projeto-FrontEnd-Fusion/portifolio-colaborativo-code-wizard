@@ -2,6 +2,7 @@
 import './App.css'
 import EquipeCollection from "./components/equipe.collection";
 import ComentariosContainer from './components/comentarios.collection'
+import Hero from './components/hero.collection/Hero';
 import React from 'react'
 
 
@@ -11,7 +12,7 @@ function App() {
   return (
 <div className=' flex flex-col gap-10'>
 
-<span>[Coloque aqui o hero]</span>
+<Hero />
 <span>[Coloque aqui a sessão de vantagens]</span>
 <span>[Coloque aqui a sesão de tecnologias]</span>
 <EquipeCollection />
