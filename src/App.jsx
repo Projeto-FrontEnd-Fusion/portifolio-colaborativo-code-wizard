@@ -8,7 +8,7 @@ import React from "react";
 
 function App() {
   return (
-    <div className="flex flex-col gap-10">
+    <div className="flex flex-col gap-10 bg-dark-color">
       <span>[Coloque aqui o hero]</span>
       <Advantages />
       <LingeTecs/>
