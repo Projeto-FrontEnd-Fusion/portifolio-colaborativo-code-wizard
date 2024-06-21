@@ -1,5 +1,4 @@
 import {useState} from "react";
-import projectDefault from "../imageProject/projectDefault.png";
 
 export default function EquipeBottom(User) {
     const [showProject, setShowProject] = useState(false)
@@ -45,7 +44,7 @@ export default function EquipeBottom(User) {
                                      className={`group overflow-hidden flex items-center justify-center w-52 h-36 dark:bg-dark-color-second rounded-lg cursor-pointer larger-screen:w-[300px] larger-screen:h-[210px]`}>
                                 <a href={project.link} target="_blank"
                                    className={`relative size-full flex items-center justify-center`}>
-                                    <img src={projectDefault} alt={project.name}
+                                    <img src={project.projectUrl} alt="projeto"
                                          className={`size-full object-cover duration-150 group-hover:sepia-0 sepia`}/>
                                     <div
                                         className={`absolute text size-full flex flex-wrap items-center justify-center backdrop-brightness-50`}>
