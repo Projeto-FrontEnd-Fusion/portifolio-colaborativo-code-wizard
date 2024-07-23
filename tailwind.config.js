@@ -21,7 +21,8 @@ export default {
       "primary-button"    : "#16C586",
       "light-color-text1" : "#F2F0FF",
       "light-color-text2" : "#B5B3BC",
-      "border-color"      : "#EBEBEB"
+      "border-color"      : "#EBEBEB",
+			"second-button": "#0368FF"
     },
 
     fontFamily: {
