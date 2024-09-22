@@ -14,8 +14,6 @@ function ComentariosContainer() {
             console.error("Algo não deu certo! " + err)
         });
     }, []);
-
-    console.log(items)
     
     return (
         <section className="comentarios mx-auto my-7 w-3/4">
