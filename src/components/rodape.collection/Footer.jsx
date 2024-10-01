@@ -90,6 +90,7 @@ const Footer = () => {
 				</div>
 
 			</div>
+			{/* Precisa de ajustes na parte responsiva. O nome dos participantes desaparece e as fotos não ficam organizadas conforme o figma F */}
 
 			<p className="font-mulish text-center my-6 block larger-screen:hidden larger-screen:w-[600px] larger-screen:text-left larger-screen:my-1">
 				Projeto Frontendfusion - Todos os direitos reservados
