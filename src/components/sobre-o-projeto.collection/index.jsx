@@ -43,6 +43,11 @@ function AboutFrontEndFusion() {
 
   return (
     <section className={Container}>
+      {/* 
+      Limitar o comprimento da section para que fique um pouco mais afastado das bordas e centralizado com o restante do projeto.
+      Acredito que acertando esse ponto, a section ficará perfeita
+      */}
+
       <div className={AboutProject}>
         <h2 className={TitleAboutProject}>Sobre o projeto Front-End Fusion</h2>
         <p className={TextAboutProject}>
@@ -63,6 +68,11 @@ function AboutFrontEndFusion() {
           <p className={TextArticles}>
             <strong>O Que Procuramos:</strong>
             <br />
+            {/* 
+            Ao invéz de usar Br para separar as linhas, utilize as tags h1 até h6, neste caso h3 ou h4 ficaria bom, para indicar o título deste tópico 
+            E o que ficou separado depois do Br, pode ser colocado dentro de uma tag p
+            */}
+            
             Paixão pela programação e desejo de aprender e crescer. Conhecimento
             básico de CSS, HTML e JavaScript ou disposição para aprender.
             Capacidade de trabalhar em equipe e colaborar em projetos conjuntos.
@@ -106,6 +116,7 @@ function AboutFrontEndFusion() {
           Estamos ansiosos para receber sua inscrição e dar as boas-vindas a
           você em nossa comunidade!
         </p>
+        {/* Ajustar o tamanho da letra. Neste caso pode ser uma tag de título também (h2) */}
         <button className={ButtonParticipate}>Quero Participar</button>
       </div>
     </section>

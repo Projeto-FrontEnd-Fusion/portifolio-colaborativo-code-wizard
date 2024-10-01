@@ -1,3 +1,10 @@
+// Esse é um jeito novo pra mim de importar SVGs, mas caso você queira um jeito mais simples de importar, dá pra você colocar os SVGs na pasta
+// assets e importar ele no arquivo que você precisa do mesmo jeito que foi importado no arquivo principal.
+// ex: import {CssSvg} from "./assets/css.svg"
+// Acredito que fique mais rápido o carregametno do projeto.
+
+// PS: o efeito hover ficou bem legal
+
 function HtmlSvg() {
     return (
         <>

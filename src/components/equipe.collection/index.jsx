@@ -1,13 +1,15 @@
-import {useEffect, useState} from "react";
-import {LuLoader2} from "react-icons/lu";
+import { useEffect, useState } from "react";
+import { LuLoader2 } from "react-icons/lu";
 import EquipeTop from "./indexComponents/EquipeTop.jsx";
 import EquipeBottom from "./indexComponents/EquipeBottom.jsx";
 
 export default function EquipeCollection() {
     const [users, setUsers] = useState(null);
+    // ótimo! sem comentários
 
     useEffect(() => {
         const url = "https://sistema-cadastro-dados-portifolio-front-end-fusion.vercel.app/api/DragonCoders"
+
         const fetchData = async () => {
             try {
                 const data = await fetch(url)
@@ -24,7 +26,7 @@ export default function EquipeCollection() {
         fetchData().then(data => data ? setUsers(data) : console.error("Nenhum dado disponivel"))
     }, [])
 
-    useEffect(()=> console.log(users), [users])
+    useEffect(() => console.log(users), [users])
 
     return (
         <section
@@ -36,14 +38,14 @@ export default function EquipeCollection() {
             </div>
             {users === null ? (
                 <div className="flex items-center justify-center flex-col gap-2 w-full h-80">
-                    <LuLoader2 className={`animate-spin dark:stroke-light-color size-20`}/>
+                    <LuLoader2 className={`animate-spin dark:stroke-light-color size-20`} />
                 </div>
             ) : (
                 /** @property users.people */
                 users.people.map((user, id) => (
                     <div key={id} className="overflow-hidden w-full h-fit max-w-[1280px]">
-                        <EquipeTop user={user}/>
-                        <EquipeBottom user={user}/>
+                        <EquipeTop user={user} />
+                        <EquipeBottom user={user} />
                     </div>
                 ))
             )}

@@ -11,13 +11,17 @@ import Footer from "./components/rodape.collection/Footer";
 function App() {
   return (
     <div className="flex flex-col gap-10 bg-dark-color">
+     
+      {/* Esta div deve ser trocada pelo termo "main" já que este é o corpo do projeto.
+       Todos os componentes que vem dentro deste main devem ser "sections", ou "header" para o cabeçalho e "footer" para o rodapé  */}
+      
       <Hero />
       <Advantages />
-      <LingeTecs /> 
+      <LingeTecs />
       <EquipeCollection />
       <AboutFrontEndFusion />
       <ComentariosContainer />
-			<Footer />
+      <Footer />
     </div>
   );
 };

@@ -7,10 +7,20 @@ import { GoTelescope } from "react-icons/go";
 import { GrShieldSecurity } from "react-icons/gr";
 
 const Advantages = () => {
+
+  // para melhor estruturação do projeto, quando for importar um componente para dentro de outro, criamos uma pasta com deste componente e 
+  // nomeamos o arquivo com "index.jsx". 
+
+
   return (
     <div className="bg-dark-color">
+      {/* 
+      Semanticamente, quando queremos delimitar um espaço para um conteúdo específico, não utilizamos "div" e sim "section"
+      */}
+
       <div className="m-auto flex flex-wrap items-center justify-center p-2 gap-4 mega-screen:max-w-[1212px]">
         <div className="w-96 text-[#F2F0FF] pt-8 pb-8 pr-8 m-3 space-y-4 min-h-[161px] small-screen:min-h-[290px] small-screen:m-0">
+
           <h3 className="text-[22px] font-black font-inconsolata leading-6 small-screen:text-[32px] small-screen:leading-8">
             Vantagens do <br /> Projeto
           </h3>
@@ -21,6 +31,8 @@ const Advantages = () => {
             de vantagens!
           </p>
         </div>
+
+        {/* Aumentar um pouco o espaçamento entre o título e o texto de cada tópico */}
         <Advantage
           icon={<GrSelect />}
           title={"Diversidades de habilidades:"}

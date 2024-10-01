@@ -21,7 +21,9 @@ function ComentariosContainer() {
         <section className="comentarios mx-auto my-7 w-3/4">
             <div className="comentarios__title border-b-2 border-border-color mx-auto mb-2 h-16">
                 <h1 className="text-center font-inconsolata text-white mx-auto mb-1 text-2xl w-1/2">Comentários e Avaliações</h1>
+                {/* Ajustar a cor e tamanho do título */}
             </div>
+            
             <div className="items__container flex flex-col gap-y-8">
                 {items.map((item) => 
                     <div className="bg-dark-color-second rounded-2xl pl-9 py-9 pr-7" key={item.id}>
@@ -36,6 +38,7 @@ function ComentariosContainer() {
                     </div>
                 )}
             </div>
+            {/* Está faltando toda a parte do formulário para deixar um comentário e as informações e o botão para participar do projeto*/}
         </section> 
     );
 }
